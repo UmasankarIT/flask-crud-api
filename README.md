@@ -82,7 +82,7 @@ Add User
 
 curl -X POST http://127.0.0.1:5000/users \
 -H "Content-Type: application/json" \
--d '{"name":"Alice","email":"alice@example.com"}'
+-d '{"name":"Uma","email":"uma@example.com"}'
 
 
 Get All Users
@@ -99,7 +99,7 @@ Update User
 
 curl -X PUT http://127.0.0.1:5000/users/1 \
 -H "Content-Type: application/json" \
--d '{"email":"alice_new@example.com"}'
+-d '{"email":"uma_new@example.com"}'
 
 
 Delete User
@@ -112,8 +112,8 @@ GET /users
 
 {
   "1": {
-    "name": "Alice",
-    "email": "alice@example.com"
+    "name": "uma",
+    "email": uma@example.com"
   }
 }
 
