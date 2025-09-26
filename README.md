@@ -122,6 +122,9 @@ GET /users
 This project helps you understand:
 
 Creating REST APIs with Flask
+
 CRUD operations
+
 Testing APIs with REST Client and cURL
+
 Basic API structure and routing
