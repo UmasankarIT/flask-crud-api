@@ -1,0 +1,67 @@
+# Get 
+GET http://127.0.0.1:5000/users
+
+
+### Add User Uma
+POST http://127.0.0.1:5000/users
+Content-Type: application/json
+
+{
+  "name": "Uma",
+  "email": "uma@gmail.com"
+}
+
+### Add User Nikki
+POST http://127.0.0.1:5000/users
+Content-Type: application/json
+
+{
+  "name": "Nikki",
+  "email": "nikkiboy@gmail.com"
+}
+
+### Add User Raghu
+POST http://127.0.0.1:5000/users
+Content-Type: application/json
+
+{
+  "name": "Raghu",
+  "email": "raghuboy@gmail.com"
+}
+
+### Add User PS
+POST http://127.0.0.1:5000/users
+Content-Type: application/json
+
+{
+  "name": "PS",
+  "email": "PS@gmail.com"
+}
+
+### Add User Mouni
+POST http://127.0.0.1:5000/users
+Content-Type: application/json
+
+{
+  "name": "Mouni",
+  "email": "mounii@gmail.com"
+}
+
+### Add User Cherry
+POST http://127.0.0.1:5000/users
+Content-Type: application/json
+
+{
+  "name": "Cherry",
+  "email": "cherry@gmail.com"
+}
+
+### Add User Sandy
+POST http://127.0.0.1:5000/users
+Content-Type: application/json
+
+{
+  "name": "Sandy",
+  "email": "sandy@gmail.com"
+}
+
